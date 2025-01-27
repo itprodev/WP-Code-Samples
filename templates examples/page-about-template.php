@@ -468,6 +468,9 @@ $gift_middle_banner        = get_field('gift_middle_banner');
       
     </div><!-- .signup-faq-section -->
 
+    <!-- example code for showing current year -->
+    <p><?php echo date('Y'); ?></p>
+
     <?php endif; ?>
     <!-- End FAQ Section -->
 
